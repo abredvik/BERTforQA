@@ -1,7 +1,7 @@
 # BERTforQA
 ## Environment
 ### Google Colab
-`CS1460_Final.ipynb` should run fine in google colab.
+`bertForQA.ipynb` should run fine in google colab.
 
 ### Local
 I'm using a `python3.8` virtual environment. To run different versions of
@@ -11,7 +11,7 @@ Once installed, use the following steps:
 `$ python3.8 -m venv [name of environment]`  
 `$ source [name of environment]/bin/activate`  
 `$ pip install torch datasets transformers`  
-Now you should be able to run `CS1460_Final.py` locally.
+Now you should be able to run `bertForQA.py` locally.
 
 ## Running
 ### Google Colab
@@ -20,7 +20,7 @@ order.
 
 ### Local
 To run locally, first activate your virtual environment. Then, you can just run  
-`$ python CS11460_Final.py`
+`$ python bertForQA.py`
 
 ## Description
 This code attempts to replicate the results of [Alberti et
